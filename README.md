@@ -55,8 +55,9 @@ This project is a full-stack web application that implements user authentication
    ```
 ## Project Structure
 
-/frontend: Contains the React.js frontend code.
-/backend: Contains the Node.js backend code.
+1. **/frontend:** Contains the React.js frontend code.
+
+2. **/backend:** Contains the Node.js backend code.
 
 ## Configuration
 
