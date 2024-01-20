@@ -1,6 +1,6 @@
 # React and Node.js Authentication Project
 
-This project is a full-stack web application that implements user authentication using React.js on the frontend and Node.js on the backend. It provides a secure and seamless way to register users, handle authentication, and manage user sessions.
+This project is a full-stack web application that implements user authentication using React.js on the front end and Node.js on the back end. It provides a secure and seamless way to register users, handle authentication, and manage user sessions.
 
 ## Features
 
@@ -17,13 +17,12 @@ This project is a full-stack web application that implements user authentication
 - **Frontend:**
   - React.js
   - React Router
-  - Axios (or your preferred HTTP client)
+  - Axios 
 
 - **Backend:**
   - Node.js
   - Express.js
-  - MongoDB (or your preferred database)
-  - Passport.js (or other authentication middleware)
+  - MongoDB 
 
 ## Getting Started
 
@@ -37,4 +36,56 @@ This project is a full-stack web application that implements user authentication
 1. Clone the repository:
 
    ```bash
+   git clone https://github.com/Bishopukpai/full-auth-app.git
+   ```
+2. Navigate to the project directory:
+
+   ```bash
+     cd full-auth-app
+   ```
+3. Install dependencies for both frontend and backend:
+   ```bash
+   cd React-auth
+   npm install
+
+   #Open another command line window
+   
+   cd ../Login_server
+   npm install
+   ```
+## Project Structure
+
+/frontend: Contains the React.js frontend code.
+/backend: Contains the Node.js backend code.
+
+## Configuration
+
+Create a .env file in the backend directory and configure the following:
+```bash
+PORT=3001
+MONGODB_URI=mongodb://localhost:27017/your-database
+SECRET_KEY=your-secret-key
+```
+## Usage
+
+1. Start the backend server:
+```bash
+npm start
+```
+2. Start the frontend development server:
+   ```bash
+   npm start
+   ```
+## Contributing
+Contributions are welcome! Please follow the Contribution Guidelines.
+
+## License
+This project is licensed under the MIT License.
+
+
+Make sure to replace placeholders like `your-username`, `your-database`, `your-secret-key`, and others with your actual project details. Additionally, feel free to add or modify sections based on your project's specific features and requirements.
+
+
+
+
    
