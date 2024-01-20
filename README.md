@@ -46,7 +46,7 @@ This project is a full-stack web application that implements user authentication
 3. Install dependencies for both frontend and backend:
    ```bash
    cd React-auth
-   npm install
+   npm install --force
 
    #Open another command line window
    
@@ -75,7 +75,7 @@ npm start
 ```
 2. Start the frontend development server:
    ```bash
-   npm start
+   npm run dev
    ```
 ## Contributing
 Contributions are welcome! Please follow the Contribution Guidelines.
@@ -85,8 +85,3 @@ This project is licensed under the MIT License.
 
 
 Make sure to replace placeholders like `your-username`, `your-database`, `your-secret-key`, and others with your actual project details. Additionally, feel free to add or modify sections based on your project's specific features and requirements.
-
-
-
-
-   
