@@ -70,9 +70,9 @@ SECRET_KEY=your-secret-key
 ## Usage
 
 1. Start the backend server:
-  ```bash
-  npm start
-  ```
+    ```bash
+    npm start
+    ```
 2. Start the frontend development server:
    ```bash
    npm run dev
