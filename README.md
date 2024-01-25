@@ -71,6 +71,12 @@ SECRET_KEY=your-secret-key
 
 1. Start the backend server:
     ```bash
+    cd ..
+
+    #move into the full-auth-app
+
+    cd full-auth-app
+    
     npm start
     ```
 2. Start the frontend development server:
